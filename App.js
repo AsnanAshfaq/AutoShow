@@ -1,7 +1,7 @@
 import React from 'react';
 
-import Providers from './navigation';
+import AppStack from './navigation/index';
 
 export default function App() {
-  return <Providers />;
+  return <AppStack />;
 }
